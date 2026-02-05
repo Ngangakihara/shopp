@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Top Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🛍️ Ndinda Thriftsp</h1>
+
+<div id="products"></div>
+
+<h2>🛒 Your Cart</h2>
+<div id="cart"></div>
+<p><strong>Total: KES <span id="total">0</span></strong></p>
+
+<button onclick="checkout()">Checkout via WhatsApp</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Add Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>➕ Add New Top</h1>
+
+<input type="text" id="name" placeholder="Top name">
+<input type="number" id="price" placeholder="Price (KES)">
+<button onclick="addProduct()">Add Product</button>
+
+<p id="msg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
